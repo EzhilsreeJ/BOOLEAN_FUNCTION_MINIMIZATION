@@ -80,8 +80,13 @@ endmodule
 ![image](https://github.com/user-attachments/assets/063c6179-2610-4499-93e4-c8b4a80ca0af)
 
 **LOGIC SYMBOL & Truthtable:**
+## TRUTH TABLE FOR F1:
+![image](https://github.com/user-attachments/assets/34120d53-35fa-42da-b8fd-0d4e0612272e)
+## TRUTH TABLE FOR F2:
+![image](https://github.com/user-attachments/assets/be8ae30c-b836-43da-8040-48615e43d25d)
 
 **Timing Diagram**
+![image](https://github.com/user-attachments/assets/cb0f608b-bc9e-4a59-9861-8d8c57bd622f)
 
 **Result:**
 

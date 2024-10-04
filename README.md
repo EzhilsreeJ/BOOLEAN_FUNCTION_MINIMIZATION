@@ -78,7 +78,7 @@ endmodule
 
 **RTL realization output**
 
-![image](https://github.com/user-attachments/assets/063c6179-2610-4499-93e4-c8b4a80ca0af)
+![image](https://github.com/user-attachments/assets/c50b4b38-94fd-4b87-bc5e-0ca948ae8360)
 
 **LOGIC SYMBOL & Truthtable:**
 ## TRUTH TABLE FOR F1:

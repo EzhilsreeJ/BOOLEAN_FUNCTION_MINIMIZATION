@@ -32,62 +32,33 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-# Developed by: EZHIL SREE J
-
-# RegisterNumber: 212223230056
-*/
 ```
-module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
-
-input A,B,C,D,W,X,Y,Z;
-
-wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-
-output F1,F2;
-
-assign x1=(~A)&(~B)&(~C)&(~D);
-
-assign x2=(A)&(~C)&(~D);
-
-assign x3=(~B)&(C)&(~D);
-
-assign x4=(~A)&(B)&(C)&(D);
-
-assign x5=(B)&(~C)&(D);
-
-assign x6=(X)&(~Y)&(Z);
-
-assign x7=(~X)&(~Y)&(Z);
-
-assign x8=(~W)&(X)&(Y);
-
-assign x9=(W)&(~X)&(Y);
-
-assign x10=(W)&(X)&(Y);
-
-assign F1=x1|x2|x3|x4|x5;
-
-assign F2=x6|x7|x8|x9|x10;
-
+module exp2(a,b,c,d,f1,w,x,y,z,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
+assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
 ```
 
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-**RTL realization output**
+Developed by: EZHIL SREE J
+RegisterNumber:212223230056
+*/
 
-![image](https://github.com/user-attachments/assets/c50b4b38-94fd-4b87-bc5e-0ca948ae8360)
 
-**LOGIC SYMBOL & Truthtable:**
-## TRUTH TABLE FOR F1:
-![image](https://github.com/user-attachments/assets/34120d53-35fa-42da-b8fd-0d4e0612272e)
-## TRUTH TABLE FOR F2:
-![image](https://github.com/user-attachments/assets/be8ae30c-b836-43da-8040-48615e43d25d)
+**RTL realization**
+
+![Screenshot 2024-11-15 105609](https://github.com/user-attachments/assets/3702f22c-34c3-4868-b16b-d687cf044f63)
+
+**Output:**
+
+
+**RTL**
 
 **Timing Diagram**
-![image](https://github.com/user-attachments/assets/cb0f608b-bc9e-4a59-9861-8d8c57bd622f)
+![Screenshot 2024-10-22 113237](https://github.com/user-attachments/assets/5936b03e-6060-4740-a2f4-0c6c3d4dfac8)
 
 **Result:**
 
